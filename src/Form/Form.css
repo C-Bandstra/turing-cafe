@@ -1,5 +1,45 @@
 .form-container {
   width: 45%;
   height: 90%;
-  border: 4px solid yellow;
+  background-color: lightgray;
+  opacity: 90%;
+  border-radius: 5px;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form-input {
+  width: 60%;
+  height: 10%;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2em;
+  border-radius: 5px;
+  border: 2px solid teal;
+  opacity: initial;
+}
+
+.form-btn {
+  width: 30%;
+  height: 10%;
+  border-radius: 5px;
+  background-color: teal;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+}
+
+.form-btn:hover {
+  background-color: orange;
+}
+
+.form-btn:focus {
+  background-color: white;
+  color: teal;
 }
