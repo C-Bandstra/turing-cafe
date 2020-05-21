@@ -27,9 +27,10 @@ class Form extends Component {
     return (
     <section className="form-container">
       <form onSubmit={this.handleReservation}>
-        <input required id="name" onChange={this.trackInput} className="name-input" placeholder="Name"></input>
-        <input required id="date" onChange={this.trackInput} className="date-input" placeholder="Date"></input>
-        <input required id="time" onChange={this.trackInput} className="time-input" placeholder="Time"></input>
+        <input required id="name" onChange={this.trackInput} className="name-input" placeholder="Name"/>
+        <input required id="date" onChange={this.trackInput} className="date-input" placeholder="Date"/>
+        <input required id="time" onChange={this.trackInput} className="time-input" placeholder="Time"/>
+        <input required id="number" onChange={this.trackInput} className="number-input" placeholder="Number of Guests"/>
         <button>Book!</button>
       </form>
     </section>  
