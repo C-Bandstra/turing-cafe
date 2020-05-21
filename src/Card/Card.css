@@ -1,6 +1,15 @@
 .card {
-  width: 50%;
-  height: 90%;
-  background-color: white;
+  width: 70%;
+  height: 70%;
+  background-color: teal;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  border-radius:  5px;
+  font-size: 1.5em;
   margin: 2%;
+  border: 2px solid white;
+}
+
+.card-header {
+  text-decoration: underline;
 }
