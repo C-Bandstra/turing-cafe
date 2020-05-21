@@ -1,0 +1,9 @@
+.card-container {
+  width: 45%;
+  max-height: 90%;
+  overflow: scroll;
+  border: 4px solid blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
